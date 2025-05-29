@@ -1,0 +1,71 @@
+{
+  "closed": 1,
+  "data": [
+    {
+      "id": "PR_kwDOFjrIes6TQR-H",
+      "title": "refactor: cleaned and updated AlphaCore Python & R implementations",
+      "url": "https://github.com/friedhelmvictor/alphacore/pull/3",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-04-21T05:15:17Z",
+      "number": 3,
+      "changedFiles": 3,
+      "additions": 216,
+      "deletions": 57,
+      "baseRepository": {
+        "name": "alphacore",
+        "url": "https://github.com/friedhelmvictor/alphacore",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1486265?u=bbe52a1a371e54a45ddd1b220d5f8daddba0a6e0&v=4",
+          "login": "friedhelmvictor",
+          "url": "https://github.com/friedhelmvictor"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAA2WCc6SjSwI",
+      "title": "Add alpha core algorithm",
+      "url": "https://github.com/networkx/networkx/pull/7974",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-04-14T21:18:30Z",
+      "number": 7974,
+      "changedFiles": 4,
+      "additions": 521,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "networkx",
+        "url": "https://github.com/networkx/networkx",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/388785?v=4",
+          "login": "networkx",
+          "url": "https://github.com/networkx"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOMZyhVM52I9o2",
+      "title": "Add files via upload",
+      "url": "https://github.com/prachics/sentiment-analysis/pull/1",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2024-07-22T21:05:39Z",
+      "number": 1,
+      "changedFiles": 7,
+      "additions": 31,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "sentiment-analysis",
+        "url": "https://github.com/prachics/sentiment-analysis",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/48706769?u=0ba38db35ea3b1493237edcd930764ee5e981e69&v=4",
+          "login": "prachics",
+          "url": "https://github.com/prachics"
+        }
+      }
+    }
+  ],
+  "merged": 0,
+  "open": 2,
+  "totalCount": 3
+}
