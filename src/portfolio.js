@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "prachisaibewar",
   nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Recent MS in Computer Science graduate from UCF with 2+ years of industry experience, passionate about building innovative solutions that drive real results. Proven record of delivering projects that boost performance and engagement. Eager to make a meaningful impact in my next role.",
   resumeLink:
     "https://drive.google.com/file/d/1ycrj66r1nVVAsf74RfV3MnYWcDfs12fW/view?usp=sharing",
   portfolio_repository: "https://github.com/prachics/masterPortfolio",
@@ -134,42 +134,6 @@ const skills = {
       ],
     },
     {
-      title: "Cloud & DevOps",
-      fileName: "CloudDevOpsImg",
-      skills: [
-        "⚡ Deployed and managed applications on AWS (EC2, S3, Lambda)",
-        "⚡ Containerized services with Docker and orchestrated with Kubernetes",
-        "⚡ Automated CI/CD pipelines using GitHub Actions and Terraform",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: { color: "#FF9900" },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: { color: "#2496ED" },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: { color: "#326CE5" },
-        },
-        {
-          skillName: "Terraform",
-          fontAwesomeClassname: "simple-icons:terraform",
-          style: { color: "#623CE4" },
-        },
-        {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: { backgroundColor: "transparent", color: "#FCC624" },
-        },
-      ],
-    },
-    {
       title: "Data Science & Machine Learning",
       fileName: "DataScienceImg",
       skills: [
@@ -225,6 +189,19 @@ const competitiveSites = {
 
 const degrees = {
   degrees: [
+     {
+      title: "University of Central Florida",
+      subtitle: "M.S. in Computer Science",
+      logo_path: "UCF.jpg",
+      alt_name: "UCF",
+      duration: "2023 - 2025",
+      descriptions: [
+        "⚡ Maintaining a 3.9 GPA while specializing in Machine Learning, Deep Learning, and Advanced Computer Architecture.",
+        "⚡ Serving as Graduate Teaching Assistant Artificial Intelligence in FinTech course, supporting instruction and student learning.",
+        "⚡ Conducted research contributions to the AlphaCore graph algorithm—published improvements in NetworkX and co-authored PR documentation.",
+      ],
+      website_link: "https://www.ucf.edu/",
+    },
     {
       title: "Savitribai Phule Pune University",
       subtitle: "B.E. in Computer Science",
@@ -233,23 +210,11 @@ const degrees = {
       duration: "2016 - 2020",
       descriptions: [
         "⚡ Graduated with First Class honors, building strong foundations in Data Structures, Algorithms, Database Systems, and Computer Networking.",
-        "⚡ Completed key projects including an academic 'Dark and Light Mode Calculator' and disease classification using Naïve Bayes & CNN.",
+        "⚡ Engaged in tech clubs and innovation cells, and contributed to impactful projects like disease classification using Naïve Bayes & CNN.",
       ],
-      website_link: "https://www.unipune.ac.in",
+      website_link: "https://www.unipune.ac.in/",
     },
-    {
-      title: "University of Central Florida",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "UCF.jpg",
-      alt_name: "UCF",
-      duration: "2023 - 2025",
-      descriptions: [
-        "⚡ Maintaining a 3.9 GPA while specializing in Machine Learning, Deep Learning, and Advanced Computer Architecture.",
-        "⚡ Serving as Graduate Teaching Assistant for Data Structures & Algorithms, mentoring undergraduates and running lab sessions.",
-        "⚡ Conducted research contributions to the AlphaCore graph algorithm—published improvements in NetworkX and co-authored PR documentation.",
-      ],
-      website_link: "https://www.ucf.edu/",
-    },
+   
   ],
 };
 
@@ -306,10 +271,7 @@ const experience = {
           duration: "Jan 2025 – Apr 2025",
           location: "Orlando, Florida",
           description:
-            "• Mentored 50+ students in Machine Learning labs, focusing on data preprocessing, feature engineering, and model evaluation.\n" +
-            "• Conducted interactive workshops and one-on-one tutoring, improving average student lab scores by 15%.\n" +
-            "• Designed and graded assignments on financial dataset analysis using Matplotlib and Seaborn to reinforce core concepts.",
-
+            "• Graduate Teaching Assistant for AI in FinTech, mentoring 50+ students in machine learning labs.\n• Held office hours to resolve student doubts, contributing to a 15% improvement in lab scores.\n• Developed and graded assignments on financial data analysis using Matplotlib and Seaborn.",
           color: "#9b1578",
         },
       ],

@@ -106,7 +106,15 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="repo-description" />
-                {experience["description"]}
+                {experience["description"].includes("\n") ? (
+                  <ul style={{ margin: 0, paddingLeft: 20 }}>
+                    {experience["description"].split("\n").map((point, idx) => (
+                      <li key={idx} style={{ marginBottom: 6 }}>{point.replace(/^•\s*/, "")}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  experience["description"]
+                )}
               </div>
             </div>
           </div>
